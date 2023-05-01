@@ -2,10 +2,22 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  display: grid;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+}
+
+.Container {
+  max-width: 48rem;
 }
 
